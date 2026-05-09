@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Training artifacts
+runs*/
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# Data files
+train.csv
+train_unlabel.csv
+test.csv
+sample_submission.csv
+
+# Generated submissions and temporary outputs
+submission*.csv
+smoke_submission.csv
