@@ -1,26 +1,109 @@
-# Python cache
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# IDE
-.idea/
+# Environment
+.env
+.venv/
+env/
+ENV/
+venv/
+virtualenv/
+!venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# VS Code
 .vscode/
 
-# Training artifacts
-runs*/
-*.pt
-*.pth
-*.ckpt
+# PyCharm
+.idea/
 
 # Logs
 *.log
 
-# Data files
-train.csv
-train_unlabel.csv
-test.csv
-sample_submission.csv
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+*~
 
-# Generated submissions and temporary outputs
-submission*.csv
-smoke_submission.csv
+# Coverage
+.coverage
+coverage/
+htmlcov/
+.coverage.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Build outputs
+target/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyTest
+.pytest_cache/
+
+# GitHub Copilot
+.github/copilot/sockets/
